@@ -35,6 +35,7 @@ class FormulaNumberUnitTest(unittest.TestCase):
                  "all"     : [(u"1ab",u"1ab"),(u"ab",u"ab"),
                               (u"die 25 März 2015 2.5 die XX.",u"die fünf und zwanzig März zwei tausend fünfzehn zwei punkt fünf die zwanzigste"),
                               (u"am 21. dezember 2011",u"am ein und zwanzigsten dezember zwei tausend elf"),
+                              (u"am 21.12.2011",u"am ein und zwanzigsten dezember zwei tausend elf"),
                               (u"das 21.",u"das ein und zwanzigste"),(u"2,", u"zwei"),
                               (u"das 2.,", u"das zweite"),(u"das 2..", u"das zweite"),
                               (u"2,", u"zwei")]
